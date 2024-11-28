@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1440px;
+  padding: 0 100px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: black;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #272c3d;
+  z-index: 100;
+}
+
+.header-parent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #404864;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.card a {
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease-in;
+}
+
+.card a:hover {
+  transform: scale(1.1);
+}
+.card1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  padding: 10px;
+}
+
+.input input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+select {
+  background-color: #00000080;
+  color: white;
+  width: 165px;
+  padding: 5px;
+}
+
+.section {
+  background-image: url("./Bg.png");
+  height: 554px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 40px;
+}
+
+.main-parent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.h1 {
+  text-align: center;
+  font-size: 32px;
+  color: white;
+  margin-top: 20px;
+}
+
+.div {
+  background-color: #1b1e27;
+  padding: 0 200px;
+}
+
+.main-parent1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+
+.h2 {
+  margin-left: 25px;
+  margin-top: 50px;
+  color: white;
+}
+
+.p {
+  font-size: 14px;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.p1 {
+  font-size: 14px;
+  margin-bottom: 0px;
+  margin-top: 20px;
+  color: white;
+}
+
+.main-parent2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 30px;
+  padding-bottom: 70px;
+}
+
+footer {
+  background-color: #272c3d;
+  margin-top: 40px;
+}
+
+.footer-parent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
